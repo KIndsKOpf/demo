@@ -1,0 +1,19 @@
+{
+  "name": "Row Editing and Editing Events - DevExtreme Data Grid",
+  "description": "The DataGrid allows users to edit data in multiple modes. This demo shows the \"row\" edit mode. To start editing any row, click \"Edit\" in it. Only one row can be in the edit state at a time.\nTo enable row edit mode, set the mode property to \"row\" and assign true to the editing object's allowUpdating, allowAdding, and allowDeleting properties.\nEdit operations raise events that you can handle with the following functions:\n\nonEditingStart\nonInitNewRow\nonRowInserting / onRowInserted\nonRowUpdating / onRowUpdated\nonRowRemoving / onRowRemoved\nonSaving / onSaved\nonEditCanceling / onEditCanceled\n\nThis demo shows an event log under the grid.\n",
+  "dependencies": {
+    "rrule": "2.6.6",
+    "react-dom": "16.14.0",
+    "react": "16.14.0",
+    "prop-types": "15.7.2",
+    "preact": "10.5.12",
+    "luxon": "1.26.0",
+    "jszip": "3.6.0",
+    "es6-object-assign": "1.1.0",
+    "devextreme-react": "20.2.5",
+    "devextreme-quill": "0.9.8",
+    "devextreme": "20.2.5",
+    "devexpress-gantt": "2.0.18",
+    "devexpress-diagram": "2.0.11"
+  }
+}
